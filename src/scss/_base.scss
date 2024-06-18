@@ -103,7 +103,7 @@ h4 {
 }
 
 p {
-  color: var(--beige, #ab7b3d);
+  color: $beige;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -131,6 +131,7 @@ header p {
   font-family: "ITC Mona Lisa Std";
   font-size: 74px;
   font-weight: 400;
+  color: $light-beige;
 }
 
 footer p {

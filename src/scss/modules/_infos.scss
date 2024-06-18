@@ -2,15 +2,18 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  background-color: $red;
 }
 
 .infos p {
   margin-bottom: 5px;
 }
 
-.infos div:nth-child(n + 3) p {
+.infos div:nth-child(-n + 3) {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  background-color: $white;
 }
 
 .infos-credits {
