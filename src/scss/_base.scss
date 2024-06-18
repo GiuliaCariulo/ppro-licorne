@@ -105,6 +105,10 @@ p {
   line-height: normal;
 }
 
+a {
+  text-decoration: none;
+}
+
 header nav {
   display: flex;
   justify-content: space-around;
@@ -114,7 +118,6 @@ header nav {
 header nav a {
   font-size: 19px;
   font-weight: 400;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -124,14 +127,14 @@ header p {
   font-weight: 400;
 }
 
-.row + .row {
-  margin-top: 16px;
-}
+// .row + .row {
+//   margin-top: 16px;
+// }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgb(234, 234, 234);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgb(234, 234, 234);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }

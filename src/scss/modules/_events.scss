@@ -1,0 +1,31 @@
+.events a {
+  position: relative;
+  display: block;
+  margin-bottom: 40px;
+}
+.events-darkerfilm {
+  position: absolute;
+  background-color: $brown;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+}
+
+.events a img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.events p {
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: $beige;
+  font-size: 30px;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+  padding: 0 20%;
+}
