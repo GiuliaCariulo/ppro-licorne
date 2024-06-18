@@ -77,6 +77,12 @@ header {
   background-size: cover;
 }
 
+footer {
+  margin-top: 140px;
+  padding: 130px 0 40px;
+  background-color: #221c17;
+}
+
 h1 {
   text-align: center;
 }
@@ -127,14 +133,12 @@ header p {
   font-weight: 400;
 }
 
-// .row + .row {
-//   margin-top: 16px;
-// }
+footer p {
+  font-size: 12px;
+}
 
-// .row > .col,
-// .row > [class^="col-"] {
-//   padding-top: 12px;
-//   padding-bottom: 12px;
-//   background-color: rgb(234, 234, 234);
-//   border: 1px solid rgba(86, 61, 124, 0.2);
-// }
+footer span {
+  font-family: "Font Awesome Brands";
+  font-size: 17px;
+  margin-right: 7px;
+}

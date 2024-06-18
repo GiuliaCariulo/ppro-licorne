@@ -1,0 +1,20 @@
+.infos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.infos p {
+  margin-bottom: 5px;
+}
+
+.infos div:nth-child(n + 3) p {
+  display: flex;
+  align-items: center;
+}
+
+.infos-credits {
+  font-size: 9px;
+  text-align: center;
+  margin-top: 100px;
+}
