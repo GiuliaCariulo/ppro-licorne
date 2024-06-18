@@ -2,10 +2,6 @@
   font-size: 19px;
 }
 
-.product-detail {
-  color: var(--brown, #261f19);
-}
-
 .product h3 {
   font-size: 75px;
   letter-spacing: 3.75px;
@@ -17,6 +13,7 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 15px;
+  padding-top: 120px;
 }
 
 .product li {
@@ -28,10 +25,22 @@
   margin-top: 20px;
 }
 
+.product-detail {
+  color: var(--brown, #261f19);
+  position: relative;
+}
 .product-informations {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
   gap: 5px;
+}
+
+.product-bottle {
+  position: absolute;
+  left: 50%;
+  height: 70%;
+  width: auto;
+  transform: translateX(-50%) rotate(15deg);
 }
