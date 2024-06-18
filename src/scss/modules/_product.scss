@@ -1,0 +1,37 @@
+.product {
+  font-size: 19px;
+}
+
+.product-detail {
+  color: var(--brown, #261f19);
+}
+
+.product h3 {
+  font-size: 75px;
+  letter-spacing: 3.75px;
+  text-transform: uppercase;
+}
+
+.product h4 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.product li {
+  list-style-type: none;
+}
+
+.product span {
+  display: block;
+  margin-top: 20px;
+}
+
+.product-informations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  gap: 5px;
+}
