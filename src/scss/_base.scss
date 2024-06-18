@@ -88,8 +88,10 @@ h1 {
 }
 
 h2 {
-  font-size: 10px;
-  font-weight: 200;
+  font-family: "Mona Lisa";
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 2.5px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -131,7 +133,8 @@ header p {
   color: $light-beige;
 }
 
-footer p {
+footer p,
+footer a {
   font-size: 12px;
 }
 

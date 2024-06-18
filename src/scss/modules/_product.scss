@@ -1,5 +1,6 @@
 .product {
   font-size: 19px;
+  margin-bottom: 140px;
 }
 
 .product h3 {
@@ -43,4 +44,34 @@
   height: 70%;
   width: auto;
   transform: translateX(-50%) rotate(15deg);
+}
+
+// -----------
+
+.product-swipe h2 {
+  margin: 50px 0;
+}
+
+.product-swipe p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.product-swipe img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.product-0,
+.product-1 {
+  border: 1px solid $beige;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+.product-1 {
+  height: 130%;
 }
