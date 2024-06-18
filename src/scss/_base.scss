@@ -79,3 +79,15 @@ h3 {
   font-size: 50;
   line-height: 100%;
 }
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(234, 234, 234);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
