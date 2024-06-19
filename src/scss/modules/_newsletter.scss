@@ -1,0 +1,42 @@
+.newsletter h2 {
+  margin-bottom: 45px;
+}
+
+.newsletter p {
+  margin-bottom: 15px;
+}
+
+.newsletter-privacy {
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.newsletter-line {
+  border-top: 0.5px solid $beige;
+  margin-bottom: 40px;
+}
+
+.newsletter input {
+  background-color: $brown;
+  border: 1px solid $beige;
+  color: $beige;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: $beige;
+  opacity: 0.4;
+}
+
+.newsletter input:first-child {
+  border: none;
+  margin-bottom: 3px;
+}
+
+.newsletter input:nth-child(n + 2) {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 15px;
+}
