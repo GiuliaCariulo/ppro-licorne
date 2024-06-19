@@ -1,4 +1,8 @@
-.infos-adress,
+.infos {
+  line-height: 1;
+}
+
+.infos-contact,
 .infos-social,
 .infos-legalities {
   display: flex;
@@ -7,15 +11,15 @@
   align-items: flex-end;
 }
 
-.infos-adress p {
-  margin-top: 5px;
-}
 .infos-social div,
-.infos-legalities div {
+.infos-legalities div,
+.infos-contact {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 5px;
 }
+
 .infos a {
   display: block;
 }
