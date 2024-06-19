@@ -1,6 +1,5 @@
-.product {
+section.product {
   font-size: 19px;
-  margin-bottom: 140px;
 }
 
 .product h3 {
@@ -64,35 +63,31 @@
   margin-top: 14px;
 }
 
-.product-swipe img {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.product-0,
-.product-1 {
+.product-swipe-box {
   border: 1px solid $beige;
-  width: 80%;
-  height: 100%;
+  padding: 100px 45px;
   margin: auto;
+  margin: 0 45px;
 }
 
-.product-1 {
-  height: 130%;
+.product-swipe-box img {
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.product-1-blond {
-  border-color: $yellow;
-  color: $yellow;
-}
+// .product-1-blond {
+//   border-color: $yellow;
+//   color: $yellow;
+// }
 
-.product-1-dark {
-  border-color: $red;
-  color: $red;
-}
+// .product-1-dark {
+//   border-color: $red;
+//   color: $red;
+// }
 
-.product-1-ipa {
-  border-color: $green;
-  color: $green;
-}
+// .product-1-ipa {
+//   border-color: $green;
+//   color: $green;
+// }
