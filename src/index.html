@@ -13,11 +13,11 @@
     />
   </head>
   <body>
-    <header>
+    <header id="top">
       <div class="container">
         <div class="row">
           <div class="col-4 offset-4">
-            <h1>
+            <a href="#top">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="175"
@@ -61,35 +61,42 @@
                   </clipPath>
                 </defs>
               </svg>
-            </h1>
+            </a>
           </div>
           <div class="col-2 offset-2">
             <div class="settings">
-              <div>cart-shopping</div>
-              <div>user-large</div>
-              <div><span>fr|de|en</span></div>
+              <a href="cart.html">cart-shopping</a>
+              <a href="user.html">user-large</a>
+              <div>
+                <span
+                  ><a href="lang.html">fr</a>|<a href="lang.html">de</a>|<a
+                    href="lang.html"
+                    >en</a
+                  ></span
+                >
+              </div>
             </div>
           </div>
           <div class="col-12">
             <nav>
-              <a href="">Notre histoire</a>
-              <a href="">Nos bières</a>
-              <a href="">Evènements</a>
-              <a href="">Shop</a>
-              <a href="">Point de vente</a>
-              <a href="">Contact</a>
+              <a href="#story">Notre histoire</a>
+              <a href="#beers">Nos bières</a>
+              <a href="#events">Evènements</a>
+              <a href="#shop">Shop</a>
+              <a href="sale.html">Points de vente</a>
+              <a href="#contact">Contact</a>
             </nav>
           </div>
           <div class="col-8 offset-1">
-            <p>
+            <h1>
               Le plaisir d’une bière sans alcool, d’exception, à tout moment.
-            </p>
+            </h1>
           </div>
         </div>
       </div>
     </header>
     <main>
-      <section class="story">
+      <section id="story" class="story">
         <img src="/src/ressources/img/rose.svg" alt="" class="story-rose" />
         <div class="l-story">
           <div class="container">
@@ -140,7 +147,7 @@
           </div>
         </div>
       </section>
-      <section class="product">
+      <section id="beers" class="product">
         <div class="product-detail">
           <div class="l-product">
             <div class="container">
@@ -179,7 +186,7 @@
             </div>
           </div>
         </div>
-        <div class="product-swipe">
+        <div id="shop" class="product-swipe">
           <div class="container">
             <div class="row">
               <div class="col-12">
@@ -226,7 +233,7 @@
           </div>
         </div>
       </section>
-      <section class="events">
+      <section id="events" class="events">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -268,7 +275,7 @@
         <div class="infos">
           <div class="row">
             <div class="col-4">
-              <div class="infos-adress">
+              <div id="contact" class="infos-adress">
                 <a>
                   <p>Licorne</p>
                   <p>Sylvain Megroni</p>
