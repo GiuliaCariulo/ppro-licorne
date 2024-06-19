@@ -63,10 +63,15 @@ section.product {
   margin-top: 14px;
 }
 
+.product-shop-position {
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+}
+
 .product-shop-box {
   border: 1px solid $beige;
   padding: 100px 45px;
-  margin: auto;
   margin: 0 45px;
 }
 
@@ -77,17 +82,58 @@ section.product {
   transform: translateX(-50%);
 }
 
-// .product-1-blond {
-//   border-color: $yellow;
-//   color: $yellow;
-// }
+.product-shop-bottle {
+  transition: transform 0.3s 0.2s ease;
+}
 
-// .product-1-dark {
-//   border-color: $red;
-//   color: $red;
-// }
+.product-shop-bottle:hover {
+  transform: scale(115%);
+}
 
-// .product-1-ipa {
-//   border-color: $green;
-//   color: $green;
-// }
+.product-dark .product-shop-box {
+  transition: border-color 0.3s 0.2s ease-in;
+}
+
+.product-dark:hover .product-shop-box {
+  border-color: $red;
+}
+
+.product-dark p {
+  transition: color 0.3s 0.2s ease-in;
+}
+
+.product-dark:hover p {
+  color: $red;
+}
+
+.product-blond .product-shop-box {
+  transition: border-color 0.3s 0.2s ease-in;
+}
+
+.product-blond:hover .product-shop-box {
+  border-color: $yellow;
+}
+
+.product-blond p {
+  transition: color 0.3s 0.2s ease-in;
+}
+
+.product-blond:hover p {
+  color: $yellow;
+}
+
+.product-ipa .product-shop-box {
+  transition: border-color 0.3s 0.2s ease-in;
+}
+
+.product-ipa:hover .product-shop-box {
+  border-color: $green;
+}
+
+.product-ipa p {
+  transition: color 0.3s 0.2s ease-in;
+}
+
+.product-ipa:hover p {
+  color: $green;
+}
