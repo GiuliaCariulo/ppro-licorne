@@ -1,5 +1,6 @@
 .product {
   font-size: 19px;
+  margin-bottom: 140px;
 }
 
 .product h3 {
@@ -8,12 +9,18 @@
   text-transform: uppercase;
 }
 
+.product-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .product h4 {
   font-size: 40px;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 15px;
-  padding-top: 120px;
+  padding-top: 60px;
 }
 
 .product li {
