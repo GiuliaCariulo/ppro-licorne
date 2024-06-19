@@ -68,3 +68,13 @@
 //   bottom: 300px;
 //   background-color: rgb(161, 203, 255);
 // }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const swiper = new Swiper(".swiper-slide", {
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+});
