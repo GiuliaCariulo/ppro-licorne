@@ -137,6 +137,14 @@ header nav {
   margin: 44px 0 90px;
 }
 
+header a {
+  transition: color 0.5s 0.2s ease-in-out;
+}
+
+header a:hover {
+  color: $beige;
+}
+
 header nav a {
   font-size: 19px;
   font-weight: 400;
