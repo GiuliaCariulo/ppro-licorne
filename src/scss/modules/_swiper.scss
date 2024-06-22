@@ -1,8 +1,23 @@
-.swiper {
-  position: relative;
-}
-
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
   cursor: pointer;
+}
+
+.swiper-pagination-1,
+.swiper-pagination-2,
+.swiper-pagination-3 {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  width: 10px;
+  height: 10px;
+  border: 1px solid $brown;
+  border-radius: 50%;
+}
+
+.swiper-pagination {
+  display: flex;
+  gap: 8px;
 }
