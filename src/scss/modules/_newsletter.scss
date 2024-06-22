@@ -36,3 +36,8 @@ input::placeholder {
   transform: translateX(-50%);
   margin-bottom: 15px;
 }
+
+.newsletter .button:hover {
+  color: $light-beige;
+  background-color: $brown;
+}
