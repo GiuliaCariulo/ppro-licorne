@@ -2,6 +2,12 @@ section.product {
   font-size: 19px;
 }
 
+.product-detail .l-ipa .product-informations,
+.product-detail .l-ipa .product-composition {
+  position: relative;
+  transform: translateY(-90px);
+}
+
 .product h3 {
   font-size: 75px;
   letter-spacing: 3.75px;
