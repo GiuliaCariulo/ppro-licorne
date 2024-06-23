@@ -9,9 +9,15 @@ section.product {
 }
 
 .product-arrow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90%;
+}
+
+.product-arrow-right {
+  position: absolute;
+  right: 0;
 }
 
 .product h4 {
@@ -46,16 +52,13 @@ section.product {
 .product-bottle {
   position: absolute;
   left: 50%;
+  bottom: 10%;
   height: 70%;
   width: auto;
   transform: translateX(-50%) rotate(15deg);
 }
 
 // -----------
-
-.product-shop h2 {
-  margin-top: 50px;
-}
 
 .product-shop p {
   font-size: 14px;

@@ -1,16 +1,21 @@
+.l-dark,
+.l-blond,
+.l-ipa {
+  padding: 180px 0 185px;
+  height: 850px;
+  position: relative;
+}
+
 .l-dark {
   background-color: $red;
-  padding: 180px 0 185px;
 }
 
 .l-blond {
   background-color: $yellow;
-  padding: 180px 0 185px;
 }
 
 .l-ipa {
   background-color: $green;
-  padding: 180px 0 185px;
 }
 
 .l-story {
