@@ -146,3 +146,57 @@ section.product {
 .product-ipa:hover p {
   color: $green;
 }
+
+.product-shop-choices {
+  font-size: 16px;
+  font-weight: 400;
+  width: 324px;
+  padding: 10px 20px;
+  position: absolute;
+  transform: translate(-45px, 21px);
+  opacity: 0;
+  transition: opacity 0.3s 0.2s ease-in;
+}
+
+.product-dark .product-shop-choices {
+  background-color: $red;
+  color: $brown;
+}
+
+.product-blond .product-shop-choices {
+  background-color: $yellow;
+  color: $brown;
+}
+
+.product-ipa .product-shop-choices {
+  background-color: $green;
+  color: $brown;
+}
+
+.product-shop-box:hover .product-shop-choices {
+  opacity: 1;
+}
+
+.product-shop-choices div {
+  padding: 5px 20px;
+  transition: color ease-in, backgournd-color 0.3s 0.2s ease-in;
+}
+
+.product-shop-choices div:nth-child(n + 2) {
+  border-top: 1px solid $brown;
+}
+
+.product-dark .product-shop-choices div:hover {
+  background-color: $brown;
+  color: $red;
+}
+
+.product-blond .product-shop-choices div:hover {
+  background-color: $brown;
+  color: $yellow;
+}
+
+.product-ipa .product-shop-choices div:hover {
+  background-color: $brown;
+  color: $green;
+}
